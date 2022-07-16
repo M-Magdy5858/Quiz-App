@@ -1,0 +1,185 @@
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+/*================ header =====================*/
+
+header {
+  background-color: #DF4646;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  padding: 0px;
+}
+
+/*================ End of header =====================*/
+
+/*================ HEROOO =====================*/
+
+h2 {
+  margin: 25px auto;
+  width: 60%;
+  text-align: center;
+  font-weight: 300;
+}
+
+h2.select {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  text-shadow: 0px 2px 0px #df4646b6;
+}
+
+
+.box {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  padding: 30px;
+
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgb(228, 228, 228);
+
+  transition: 0.2s all ease;
+}
+
+.box:hover,
+.box.selected {
+  cursor: pointer;
+  transform: scale(1.15);
+  background-color: cornsilk;
+
+}
+
+.box img {
+  width: 100%;
+}
+
+.start {
+  width: 300px;
+  padding: 10px;
+  margin: 25px auto;
+  position: relative;
+
+  border: 2px solid;
+  border-radius: 10px;
+  box-shadow: 0px 14px 0px #DF4646;
+
+  text-align: center;
+  transition: 0.2s all ease;
+}
+
+.start:hover {
+  cursor: pointer;
+  transform: translateY(10px);
+  box-shadow: 0px 4px 0px #DF4646;
+  background-color: cornsilk;
+
+}
+
+.start h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+/*================ End of HERO =====================*/
+
+
+
+
+
+/*================ Main =====================*/
+
+.main .question {
+  padding: 0px 50px;
+}
+
+.main .question h2 {
+  margin: 0px;
+  text-align: left;
+}
+
+.main .question h5 {
+  margin: 10px 0px;
+}
+
+.main .question .form-check {
+  margin: 10px 20px;
+  font-size: large;
+}
+
+.form-check-input:checked {
+  background-color: #DF4646;
+  border-color: #DF4646;
+}
+
+.next {
+  width: 100px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: 50px;
+
+  border: 2px solid;
+  border-radius: 10px;
+  box-shadow: 0px 14px 0px #DF4646;
+
+  text-align: center;
+  transition: 0.2s all ease;
+}
+
+.next:hover {
+  cursor: pointer;
+  transform: translateY(10px);
+  box-shadow: 0px 4px 0px #DF4646;
+  background-color: cornsilk;
+
+}
+
+.timer {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid;
+  border-radius: 50%;
+  box-shadow: 0px 5px 0px #DF4646;
+}
+
+.timer h5 {
+  letter-spacing: 3px;
+}
+
+
+#scorebox {
+  width: 60%;
+  margin: 30px auto;
+  padding: 30px;
+
+  border: 2px solid;
+  border-radius: 10px;
+  box-shadow: 0px 5px 0px #DF4646;
+
+
+}
+
+#scorebox h2 {
+  width: 80%;
+
+}
+
+/*================ End of Main =====================*/
